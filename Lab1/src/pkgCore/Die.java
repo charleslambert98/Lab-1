@@ -9,7 +9,7 @@ public class Die {
 	public Die(){
 		
 		Random rand = new Random();
-		int DieValue = rand.nextInt(6) + 1;
+		DieValue = rand.nextInt(6) + 1;
 		System.out.println(DieValue);
 	}
 
